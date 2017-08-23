@@ -58,7 +58,7 @@ public class RVector<T> {
 			return;
 		}
 
-		for(int i = ++size; i > index; --i) {
+		for(int i = size++; i > index; --i) {
 			array[i] = array[i-1];
 		}
 
